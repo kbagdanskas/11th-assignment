@@ -1,0 +1,302 @@
+body {
+  background:white;
+  font-family: $text-font;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+}
+
+span {
+  font-weight: bold;
+}
+
+header {
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  align-self: flex-start;
+  top: 0;
+  bottom: 0;
+  align-items: center;
+  padding: 10px;
+  margin:0 -180px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.bg-masthead {
+  // position: relative;
+  width: 1000px;
+  height: 400px;
+}
+
+.text {
+  position: absolute;
+     text-align: center;
+     font-size: 22px;
+     text-shadow: 0 0 1px black;
+     color: white;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.email {
+  width: 280px;
+  font-size: 13px;
+  padding: 7px 2px;
+  margin: 3px -2px;
+  border: 14px;
+  border-radius: 2px;
+}
+
+.signin {
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  border: 8px solid #007bff;
+  background-color: #007bff;
+  color: white;
+}
+.signup {
+  box-sizing: border-box;
+  padding: 2px 18px;
+  margin: 5px 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  border: 5px solid #007bff;
+  background-color: #007bff;
+  color: white;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+    margin: 70px 89px;
+}
+
+.icon {
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.icon1 {
+font-size: 40px;
+background-color: white;
+border-radius: 2px;
+color: #007bff;
+}
+
+p {
+  font-size: 14px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.txt1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: left;
+  height: 310px;
+  margin: 0px 50px;
+}
+
+.txt2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 310px;
+  text-align: left;
+  align-content: flex-end;
+  margin: 0 50px;
+}
+
+.txt3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  text-align: left;
+  height: 310px;
+  margin: 0px 50px;
+}
+
+.bg-showcase1:nth-of-type(1){
+  width: 50%;
+  height: 310px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  float: right;
+}
+.bg-showcase2:nth-of-type(1){
+  width: 50%;
+  height: 310px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  float: left;
+}
+.bg-showcase3:nth-of-type(1){
+  width: 50%;
+  height: 310px;
+  object-fit: cover;
+  object-position: 50% 20%;
+  float: right;
+}
+
+.talking {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.people {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 120px;
+}
+
+.testimonials-1 {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+}
+.testimonials-2 {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+}
+.testimonials-3 {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+}
+
+.fred {
+  font-size: 12px;
+}
+.margaret {
+  font-size: 12px;
+}
+.sarah {
+  font-size: 12px;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 60px 0px;
+}
+
+
+.bg-masthead1 {
+  width: 1000px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+  margin: 0px 0px;
+}
+
+.text1 {
+  position: absolute;
+     text-align: center;
+     text-shadow: 0 0 1px black;
+     color: white;
+}
+
+.signup1 {
+  box-sizing: border-box;
+  padding: 2px 20px;
+  margin: 5px 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  border: 5px solid #007bff;
+  background-color: #007bff;
+  color: white;
+}
+
+.ready {
+  font-size: 20px;
+}
+
+.email1 {
+  width: 290px;
+  font-size: 13px;
+  padding: 7px 2px;
+  margin: 3px -2px;
+  border: 14px;
+  border-radius: 2px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  text-indent: 18px;
+  font-size: 17px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  text-indent: 10px;
+  list-style-type: none;
+}
+
+li {
+  font-size: 10px;
+}
+
+.icon2 {
+font-size: 18px;
+background-color: white;
+border-radius: 2px;
+color: #007bff;
+}
+
+.copyright {
+  font-size: 10px;
+  margin: -10px 100px 60px 200px ;
+}
